@@ -3,9 +3,6 @@
   functions = "netlify/functions"
   publish = "netlify-dist"
 
-[functions]
-  python_runtime = "3.9"
-
 [[redirects]]
   from = "/api/*"
   to = "/.netlify/functions/api:splat"
